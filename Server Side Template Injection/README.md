@@ -338,6 +338,16 @@ The above injections have been tested on Flask application.
 
 ```
 
+### Debug Statement¶
+
+If the Debug Extension is enabled, a `{% debug %}` tag will be available to dump the current context as well as the available filters and tests. This is useful to see what’s available to use in the template without setting up a debugger.
+
+```python
+<pre>{% debug %}</pre>
+```
+
+Source: https://jinja.palletsprojects.com/en/2.11.x/templates/#debug-statement
+
 ### Dump all used classes
 
 ```python
